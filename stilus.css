@@ -3,8 +3,11 @@ body {
     color: white;
     font-family: papyrus;
     text-align: center;
+    font-size: large;
 }
-
+li{
+    font-size: larger;
+}
 article {
     width: 75%;
     margin: auto;
