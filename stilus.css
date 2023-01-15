@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(22, 22, 22);
+    color: white;
+    font-family: papyrus;
+    text-align: center;
+}
+
+article {
+    width: 75%;
+    margin: auto;
+}
+.gombok {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    vertical-align: middle;
+}
+
+.gombok a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    height: 95vh;
+    width: 10%;
+    position: fixed;
+    border: 3px solid purple;
+    transition: all .5s ease-in-out;
+    padding: 15px;
+}
+.gombok a:hover {
+    background-color: rgb(36, 0, 36);
+    background-image: linear-gradient(rgba(128, 0, 128, 0), purple);
+    border-color: rgb(226, 0, 226);
+    color: gray;
+}
+#jobb {
+    text-align: right;
+    top: 10px;
+    right: 10px;
+}
+#bal {
+    top: 10px;
+    left: 10px;
+}
+.vissza {
+    display: block;
+    text-align: center;
+    position: fixed;
+    left: 45%;
+    bottom: 30px;
+}
+.vissza a {
+    text-decoration: none;
+    background-color: rgba(128, 0, 128, 0.068);
+    color: rgb(255, 0, 255);
+    border: 3px solid rgba(128, 0, 128, 0);
+    padding: 15px;
+    transition: all ease-in .3s;
+}
+.vissza a:hover {
+    border: 3px solid purple;
+    color: purple;
+}
