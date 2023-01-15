@@ -37,11 +37,12 @@ article {
     color: gray;
 }
 #jobb {
-    text-align: right;
+    text-align: left;
     top: 10px;
     right: 10px;
 }
 #bal {
+    text-align: left;
     top: 10px;
     left: 10px;
 }
